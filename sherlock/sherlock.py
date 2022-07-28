@@ -161,7 +161,7 @@ def MultipleUsernames(username):
 
 def sherlock(username, site_data, query_notify,
              tor=False, unique_tor=False,
-             proxy=None, timeout=None):
+             proxy=None, timeout=None, ):
     """Run Sherlock Analysis.
 
     Checks for existence of username on various social media sites.
